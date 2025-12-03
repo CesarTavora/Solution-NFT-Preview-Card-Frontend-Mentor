@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Blue500: hsl(215, 51%, 70%);
+    --Cyan400: hsl(178, 100%, 50%);
+    --Blue950: hsl(217, 54%, 11%);
+    --Blue900: hsl(216, 50%, 16%);
+    --Blue800: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: var(--Blue950);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+}
+
+.card {
+    background-color: var(--Blue900);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 346px;
+    max-height: 100%;
+    padding-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.699) 0px 5px 50px;
+
+}
+
+.card .nft-image{
+    position: relative;
+}
+
+.nft-image{
+    display: flex;
+    cursor: pointer;
+}
+
+.nft-image img {
+    border-radius: 10px;
+    max-width: 100%;
+
+}
+
+.nft-image::before{
+    display: none;
+    content: '';
+    background-color: var(--Cyan400);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0.5;
+    
+    
+}
+
+.nft-image::after{
+    display: none;
+    background: url(images/icon-view.svg) no-repeat center;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.nft-image:hover::before,
+.nft-image:hover::after{
+    display: block;
+
+}
+
+.text h1 {
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--White);
+    padding-bottom: 18px;
+    padding-top: 20px;
+}
+
+.text h1:hover{
+    color: var(--Cyan400);
+    cursor: pointer;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--Blue500);
+    padding-bottom: 20px;
+}
+
+.price-days {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.048);
+}
+
+.price {
+    font-weight: 500;
+    color: var(--Cyan400);
+    display: flex;
+}
+
+.price img {
+    height: 18px;
+    padding-right: 7px;
+}
+
+.days {
+    display: flex;
+}
+
+.days img {
+    height: 18px;
+    padding-right: 7px;
+}
+
+.days p {
+
+    font-weight: 300;
+    color: var(--Blue500);
+}
+
+.creation {
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.creation img {
+    max-width: 35px;
+    border: 1px solid;
+    border-color: var(--White);
+    border-radius: 40px;
+
+}
+
+.creation p {
+    color: var(--Blue500);
+    padding-left: 15px;
+}
+
+.creation a{
+    color: var(--White);
+    text-decoration: none;
+}
+
+.creation a:hover{
+    color: var(--Cyan400);
+}
+
+.attribution{
+    font-size: 8px;
+    color: var(--Blue800);
+}
+
+.attribution a{
+    text-decoration: none;
+    color: var(--Blue500);
+    font-size: 8px;
+    text-align: center;
+}
+
