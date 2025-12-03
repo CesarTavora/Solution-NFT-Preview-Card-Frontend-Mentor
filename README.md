@@ -23,7 +23,7 @@ Este projeto foi desenvolvido com o objetivo de treinar construção de layouts,
 
 Como Visualizar o Projeto
 Você pode acessar o projeto pelo link de deploy:
-(INSIRA AQUI O LINK DO SEU SITE)
+(https://cesartavora.github.io/Solution-NFT-Preview-Card-Frontend-Mentor/)
 
 Ou abrir localmente:
 
