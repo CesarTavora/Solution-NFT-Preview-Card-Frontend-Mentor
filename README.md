@@ -38,8 +38,8 @@ Desafio no Frontend Mentor:
 [https://www.frontendmentor.io](https://www.frontendmentor.io)
 
 Repositório do Projeto:
-(INSIRA AQUI O LINK DO GITHUB)
+(https://github.com/CesarTavora/Solution-NFT-Preview-Card-Frontend-Mentor)
 
 Autor
-Desenvolvido por Cesar
+Desenvolvido por Cesar Tavora.
 Estudante de Engenharia de Software com foco em desenvolvimento web e front-end.
